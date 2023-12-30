@@ -1,0 +1,218 @@
+@font-face {
+  font-family: "Playfair";
+  src: url(../assets/PlayfairDisplay-Regular.ttf);
+}
+
+.previewDiv {
+  border: 2px solid black;
+  position: sticky;
+  top: 0;
+  width: 21cm;
+  min-height: 29.7cm;
+  border: 2px solid gray;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 50px;
+}
+
+.cvInfo {
+  /*border: 2px solid green;*/
+}
+.cvExperience {
+  /*border: 2px solid green;*/
+}
+.cvEducation {
+  /*border: 2px solid green;*/
+}
+.cvSkills {
+  /*border: 2px solid green;*/
+}
+
+.topPart {
+  display: flex;
+}
+.mainInfo {
+  /*border: 2px solid blue;*/
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*margin-right: auto;*/
+}
+.mainInfo h1 {
+  font-weight: 800;
+  font-size: 1.9rem;
+  margin-bottom: -20px;
+}
+.cvField {
+  min-height: 40px;
+  min-width: 185px;
+  /*border: 2px solid orange;*/
+  background-color: #375b7f;
+  border-radius: 25px;
+  margin-top: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+}
+.description {
+  word-wrap: break-word;
+}
+
+.photo {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.picture {
+  display: flex;
+  justify-content: center;
+}
+.picture img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.contactInfo {
+  /*border: 2px solid purple;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contactInfo i {
+  font-weight: 600;
+}
+.contactInfo p {
+  width: 240px;
+}
+.emailP {
+  margin-bottom: -15px;
+}
+
+.description_responsibility {
+  word-wrap: break-word;
+}
+
+.cvExperienceHeader {
+  background-color: #375b7f;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+.cvExperienceHeader h1 {
+  letter-spacing: 1px;
+  margin-left: 15px;
+  color: white;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+.experienceList {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(1, max(380px)) repeat(1, max(380px));
+  gap: 5px;
+  margin-left: 10px;
+}
+.experience h2 {
+  color: #375b7f;
+  font-size: 1.4rem;
+}
+.companyAndDate {
+  color: #375b7f;
+  font-size: 1rem;
+  margin-top: -18px;
+}
+.responsibilitiesText {
+  word-wrap: break-word;
+  margin-top: 7px;
+}
+
+.cvEducationHeader {
+  background-color: #375b7f;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+.cvEducationHeader h1 {
+  letter-spacing: 1px;
+  margin-left: 15px;
+  color: white;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+.educationList > * {
+  word-wrap: break-word;
+}
+.educationList {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(1, max(380px)) repeat(1, max(380px));
+  gap: 5px;
+  margin-left: 10px;
+}
+.education h2 {
+  color: #375b7f;
+  font-size: 1.4rem;
+}
+.education span {
+  font-size: 1rem;
+}
+.degreeText {
+  margin-top: -18px;
+  margin-bottom: 7px;
+  color: #375b7f;
+}
+
+.degreeDescriptionText {
+  word-wrap: break-word;
+}
+
+.cvSkillsHeader {
+  background-color: #375b7f;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+.cvSkillsHeader h1 {
+  letter-spacing: 1px;
+  margin-left: 15px;
+  color: white;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+.skillsList ul {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 5px;
+}
+
+/*
+@media screen and (max-width: 550px) {
+  main {
+    border: 2px solid blue;
+  }
+
+  .forms {
+    border: 2px solid orange;
+  }
+
+  .preview {
+    border: 2px solid purple;
+  }
+
+  .previewDiv {
+    transform: scale(0.4);
+  }
+} */

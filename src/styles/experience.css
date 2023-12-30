@@ -1,0 +1,81 @@
+form {
+  background-color: white;
+  border: 2px solid gray;
+  border-radius: 8px;
+  padding: 1em;
+  max-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+.headerExperience {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+form h1 {
+  text-align: center;
+  font-size: 21px;
+}
+.iconExperience {
+  height: 42px;
+  width: 42px;
+  color: inherit;
+  border: none;
+  background: url(../assets/work.svg) no-repeat;
+  background-size: contain;
+}
+
+label {
+  display: block;
+  border: 2px solid gray;
+  border-radius: 8px;
+  padding: 5px;
+}
+label:hover {
+  border: 2px solid #944be7;
+}
+.test:active {
+  background-color: purple;
+}
+.titleExperience {
+  transform: translateY(-16px);
+  background-color: white;
+  width: fit-content;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+input {
+  display: block;
+  width: 17rem;
+  border: none;
+  font-size: 1.1rem;
+}
+input:focus {
+  outline: none;
+}
+.description_responsibilityText {
+  font-size: 0.9rem;
+}
+textarea {
+  width: 17rem;
+  height: 4rem;
+  resize: none;
+  border: none;
+}
+textarea:focus {
+  outline: none;
+}
+
+.submitExperience {
+  width: 50px;
+  margin-top: 7px;
+  border: none;
+  color: inherit;
+  background: none;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 5px;
+  background-color: rgb(214, 214, 214);
+}
