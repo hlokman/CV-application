@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "../styles/education.css";
 
 function Education({
@@ -12,7 +11,7 @@ function Education({
   nextEducation,
 }) {
   return (
-    <form className="formEducation" /*onSubmit={onSubmit}*/>
+    <form className="formEducation">
       {show && (
         <div className="headerEducation">
           <div className="iconEducation"></div>

@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "../styles/experience.css";
 
 function Experience({
@@ -13,7 +12,7 @@ function Experience({
 }) {
   return (
     <>
-      <form className="formExperience" /*onSubmit={onSubmit}*/>
+      <form className="formExperience"/>
         {show && (
           <div className="headerExperience">
             <div className="iconExperience"></div>

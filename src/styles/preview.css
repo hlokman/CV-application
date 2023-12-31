@@ -16,30 +16,21 @@
   padding: 5px 50px;
 }
 
-.cvInfo {
-  /*border: 2px solid green;*/
-}
-.cvExperience {
-  /*border: 2px solid green;*/
-}
-.cvEducation {
-  /*border: 2px solid green;*/
-}
+.cvInfo,
+.cvExperience,
+.cvEducation,
 .cvSkills {
-  /*border: 2px solid green;*/
 }
 
 .topPart {
   display: flex;
 }
 .mainInfo {
-  /*border: 2px solid blue;*/
   width: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /*margin-right: auto;*/
 }
 .mainInfo h1 {
   font-weight: 800;
@@ -49,7 +40,6 @@
 .cvField {
   min-height: 40px;
   min-width: 185px;
-  /*border: 2px solid orange;*/
   background-color: #375b7f;
   border-radius: 25px;
   margin-top: 40px;
@@ -81,7 +71,6 @@
   border: 1px solid black;
 }
 .contactInfo {
-  /*border: 2px solid purple;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -197,22 +186,3 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 5px;
 }
-
-/*
-@media screen and (max-width: 550px) {
-  main {
-    border: 2px solid blue;
-  }
-
-  .forms {
-    border: 2px solid orange;
-  }
-
-  .preview {
-    border: 2px solid purple;
-  }
-
-  .previewDiv {
-    transform: scale(0.4);
-  }
-} */

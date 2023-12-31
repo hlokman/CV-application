@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "../styles/generalInfo.css";
 
 function Contact({
@@ -10,12 +9,7 @@ function Contact({
   handleChangeField,
 }) {
   return (
-    <form
-      className="formInfo"
-      /*onClick={(e) => {
-          e.preventDefault();
-        }}*/
-    >
+    <form className="formInfo">
       <div className="headerInfo">
         <div className="iconInfo"></div>
         <h1>General Information:</h1>
